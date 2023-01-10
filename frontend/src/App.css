@@ -1,0 +1,32 @@
+.navButton::before {
+  content: "";
+  position: absolute;
+  left: 77px;
+  width: 5px;
+  background-color: #00a186;
+  height: 5%;
+  border-radius: 20px;
+}
+
+.navChat::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #d4d7da;
+  height: 1px;
+  top: 124px;
+}
+
+::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+::-webkit-scrollbar-thumb {
+  --bg-opacity: 1;
+  background-color: black;
+  background-color: rgba(237, 242, 247, var(--bg-opacity));
+  border-radius: 2.35rem;
+}
